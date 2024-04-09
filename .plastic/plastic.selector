@@ -1,0 +1,4 @@
+repository "JuegoFinalURP@Ivy_CL@cloud"
+  path "/"
+    br "/main"
+    co "/main"
