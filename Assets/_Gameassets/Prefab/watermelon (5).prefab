@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 3894877461769128233}
   - component: {fileID: 7964177203971544902}
   - component: {fileID: 5178645518710273475}
+  - component: {fileID: -3449947042897507833}
   m_Layer: 0
   m_Name: watermelon (5)
   m_TagString: Untagged
@@ -83,3 +84,20 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &-3449947042897507833
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 950672505627444020}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7d9e9780494615e4e81ea17ae7b01a66, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  efectoImpactoConAudio: {fileID: 4924508274929071776, guid: 0edef91621bb6b34384ccc9dbb98729c,
+    type: 3}
+  pupa: 10
+  autodestruccion: 1
+  tagEnemigo: Enemigo

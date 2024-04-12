@@ -12,8 +12,6 @@ public class Explosionador : MonoBehaviour
     public string targetTag = "Player";
     private float distanciaAlPlayer;
     private Transform transformPlayer;
-
-    
     void Start()
     {
         transformPlayer = GameObject.FindGameObjectWithTag(targetTag).transform;
@@ -27,7 +25,7 @@ public class Explosionador : MonoBehaviour
             Destroy(gameObject);
             //TODO Hacer daño al player
             Debug.LogWarning("TODO: Hacer daño al player");
+            transformPlayer.gameObject.GetComponent<PlayerHealthManager>()?.RecibirPupa(damage);
         }
     }
-   
 }
