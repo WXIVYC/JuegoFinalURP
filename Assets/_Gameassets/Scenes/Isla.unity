@@ -1488,7 +1488,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 70d7ce4d506a3cf45acc1272c6e1900c, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3410,7 +3410,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 0}
+  m_Sprite: {fileID: 21300000, guid: 81b403f75d709dd4194b59d14ebbeafb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25404,7 +25404,8 @@ MonoBehaviour:
   imageVida: {fileID: 1880148356}
   textoPuntuacion: {fileID: 470450449}
   textoPuntuacionMaxima: {fileID: 170599086}
-  objetosAActivarCuandoGameOver: []
+  objetosAActivarCuandoGameOver:
+  - {fileID: 0}
 --- !u!1001 &1637886485
 PrefabInstance:
   m_ObjectHideFlags: 0
