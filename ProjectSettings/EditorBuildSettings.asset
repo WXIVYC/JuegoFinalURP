@@ -11,4 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/_Gameassets/Scenes/Isla.unity
     guid: 642523c79bd68094d8a884f992adabc4
+  - enabled: 1
+    path: Assets/_Gameassets/Scenes/scenainterior.unity
+    guid: 8fdb66b3d5f94c2488dec767fb72a89e
   m_configObjects: {}
