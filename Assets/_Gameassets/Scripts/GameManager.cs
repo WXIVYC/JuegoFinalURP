@@ -7,6 +7,8 @@ using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
+    
+
     //Atributos del juego
     public float salud;
     public int saludMaxima;
@@ -21,6 +23,9 @@ public class GameManager : MonoBehaviour
     public List<GameObject> objetosAActivarCuandoGameOver;
 
     private static string KEY_HIGHSCORE = "HIGHSCORE";
+    
+
+
 
     private void Awake()
     {
