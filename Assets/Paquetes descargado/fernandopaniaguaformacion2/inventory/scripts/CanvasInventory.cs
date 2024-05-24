@@ -2,7 +2,6 @@ using System;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
-using static UnityEditor.Progress;
 
 namespace FPFInventory
 {
@@ -63,7 +62,7 @@ namespace FPFInventory
             } 
             else
             {
-                Debug.LogError("Hay un error en la gestión del inventario");
+                Debug.LogError("Hay un error en la gestiï¿½n del inventario");
             }
             
         }
